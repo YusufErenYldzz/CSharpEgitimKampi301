@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
-    class Order
+    public class Order
     {
 
         public int OrderId { get; set; }
 
+        public int ProductId { get; set; }
+        public Product Product { get; set; }
 
+        public int Quantity { get; set; }
+        public decimal Price { get; set; }
+
+        public decimal TotalPrice { get; set; }
+        public int CustomerId { get; set; }
+        public virtual Customer Customer { get; set; }
     }
 }

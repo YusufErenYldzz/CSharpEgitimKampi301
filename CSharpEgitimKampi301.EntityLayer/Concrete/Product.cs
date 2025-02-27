@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
-    class Product
+    public class Product
     {
 
         public int ProductId { get; set; }
@@ -17,5 +17,7 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
 
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
+
+        public List<Order> Orders { get; set; }
     }
 }
