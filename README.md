@@ -19,10 +19,12 @@ Bu projede Entity Framework ve LINQ sorguları kullanarak bir seyahat veri taban
 ✅ **Kişiye Özel Veriler:**  
 - Bir rehberin sorumlu olduğu tur sayısının bulunması.  
 
-# 🎯 Kazanımlarım:
-📌  Entity Framework ile veri tabanına bağlantı kurarak gelişmiş sorgulamalar yapma becerimi artırdım.
-📌  LINQ ifadeleri sayesinde verileri etkili bir şekilde filtrelemeyi ve analiz etmeyi öğrendim.
-📌  Windows Forms arayüzü ile kullanıcı dostu bir istatistik paneli geliştirerek verileri görsel hale getirdim.
-📌  Gerçek zamanlı istatistikler ile uygulamanın etkileşimini artırarak veri tabanı yönetimi konusundaki yetkinliğimi güçlendirdim.
+🎯 **Kazanımlarım:**  
+
+📌 **Entity Framework** ile veri tabanına bağlantı kurarak gelişmiş sorgulamalar yapma becerimi artırdım.  
+📌 **LINQ ifadeleri** sayesinde verileri etkili bir şekilde filtrelemeyi ve analiz etmeyi öğrendim.  
+📌 **Windows Forms arayüzü** ile kullanıcı dostu bir istatistik paneli geliştirerek verileri görsel hale getirdim.  
+📌 **Gerçek zamanlı istatistikler** ile uygulamanın etkileşimini artırarak veri tabanı yönetimi konusundaki yetkinliğimi güçlendirdim.  
+
 
 Bu proje, C# ve veri tabanı yönetimi konusundaki bilgi birikimimi artırmamı sağladı. 💡 Gelecekte daha gelişmiş projelerle bu deneyimi ileri taşımayı hedefliyorum! 🚀
