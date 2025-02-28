@@ -3,7 +3,7 @@
 
 Bu projede Entity Framework ve LINQ sorguları kullanarak bir seyahat veri tabanındaki bilgileri analiz eden ve görselleştiren bir istatistik paneli geliştirdim. 🚀 Windows Forms üzerinde çalışan bu panel, seyahat verilerini dinamik olarak göstererek kullanıcıya anlık istatistikler sunmayı amaçladı.
 
-# 📌 Proje Özellikleri:
+## 📌 Proje Özellikleri:
 ✅ **Genel Bilgiler:**  
 - Toplam lokasyon, kapasite, rehber sayısı gibi temel verilerin hesaplanması.  
 
@@ -19,7 +19,7 @@ Bu projede Entity Framework ve LINQ sorguları kullanarak bir seyahat veri taban
 ✅ **Kişiye Özel Veriler:**  
 - Bir rehberin sorumlu olduğu tur sayısının bulunması.  
 
-🎯 **Kazanımlarım:**  
+## 🎯 Kazanımlarım:
 
 📌 **Entity Framework** ile veri tabanına bağlantı kurarak gelişmiş sorgulamalar yapma becerimi artırdım.  
 📌 **LINQ ifadeleri** sayesinde verileri etkili bir şekilde filtrelemeyi ve analiz etmeyi öğrendim.  
