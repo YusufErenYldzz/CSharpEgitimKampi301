@@ -6,17 +6,13 @@ Bu projede Entity Framework ve LINQ sorguları kullanarak bir seyahat veri taban
 ## 📌 Proje Özellikleri:
 ✅ **Genel Bilgiler:**  Toplam lokasyon, kapasite, rehber sayısı gibi temel verilerin hesaplanması.  
 
-✅ **İstatistiksel Veriler:**  
-- Ortalama kapasite, ortalama tur fiyatı gibi analizlerin görüntülenmesi.  
+✅ **İstatistiksel Veriler:**  Ortalama kapasite, ortalama tur fiyatı gibi analizlerin görüntülenmesi.  
 
-✅ **Filtreleme:**  
-- Belirli bir şehir veya ülkeye ait verilerin özel olarak süzülmesi.  
+✅ **Filtreleme:**  Belirli bir şehir veya ülkeye ait verilerin özel olarak süzülmesi.  
 
-✅ **Maksimum Değerler:**  
-- En yüksek kapasiteli ve en pahalı turların tespit edilmesi.  
+✅ **Maksimum Değerler:**  En yüksek kapasiteli ve en pahalı turların tespit edilmesi.  
 
-✅ **Kişiye Özel Veriler:**  
-- Bir rehberin sorumlu olduğu tur sayısının bulunması.  
+✅ **Kişiye Özel Veriler:**  Bir rehberin sorumlu olduğu tur sayısının bulunması.  
 
 ## 🎯 Kazanımlarım:
 
