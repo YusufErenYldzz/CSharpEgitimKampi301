@@ -1,5 +1,6 @@
 ﻿using CSharpEgitimKampi301.DataAccessLayer.Abstract;
 using CSharpEgitimKampi301.DataAccessLayer.Context;
+using CSharpEgitimKampi301.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -49,6 +50,11 @@ namespace CSharpEgitimKampi301.DataAccessLayer.Repositories
             var updatedEntity = context.Entry(entity);
             updatedEntity.State = EntityState.Modified;
             context.SaveChanges();
+        }
+
+        public List<Product> GetProductsWithCategory(int categoryId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

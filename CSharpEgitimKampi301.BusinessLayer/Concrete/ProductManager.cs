@@ -16,6 +16,13 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
         {
             _productDal = productDal;
         }
+
+        public int CategoryId { get; set; }
+        public short ProductStock { get; set; }
+        public string ProductName { get; set; }
+        public decimal ProductPrice { get; set; }
+        public string ProductDescription { get; set; }
+
         public void TDelete(Product entity)
         {
             _productDal.Delete(entity);
@@ -28,13 +35,27 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
         {
             return _productDal.GetById(id);
         }
+
+        public List<object> TGetProductsWithCategory()
+        {
+            return _productDal.GetProductsWithCategory();
+        }
+
         public void TInsert(Product entity)
         {
             _productDal.Insert(entity);
         }
+
+        public void TInsert(ProductManager product)
+        {
+            throw new NotImplementedException();
+        }
+
         public void TUpdate(Product entity)
         {
             _productDal.Update(entity);
         }
+
+        
     }
 }

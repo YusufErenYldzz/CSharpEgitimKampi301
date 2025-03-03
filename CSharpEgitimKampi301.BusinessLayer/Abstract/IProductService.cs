@@ -1,4 +1,5 @@
-﻿using CSharpEgitimKampi301.EntityLayer.Concrete;
+﻿using CSharpEgitimKampi301.BusinessLayer.Concrete;
+using CSharpEgitimKampi301.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,7 @@ namespace CSharpEgitimKampi301.BusinessLayer.Abstract
 {
     public interface IProductService : IGenericService<Product>
     {
-
-
-
+        List<object> TGetProductsWithCategory();
+        void TInsert(ProductManager product);
     }
 }
